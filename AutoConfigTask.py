@@ -5,7 +5,7 @@ import os
 
 app = Flask(__name__)
 
-fpath = "config.ini"
+fpath = "config.cfg"
 
 def read_config(file_path):
     config_data = {}  # Initialize an empty dictionary to store config data
@@ -44,7 +44,7 @@ def save_to_database(data):
 
 @app.route('/get_config', methods=['GET'])
 def get_config():
-    config_data = read_config('config.ini')
+    config_data = read_config('config.cfg')
     if config_data:
         save_to_database(config_data)
         return jsonify(config_data)
