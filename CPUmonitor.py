@@ -19,7 +19,7 @@ def monitor_cpu(threshold):
                 print('\n',cpufreq)
                 # print(diskusages)
 
-            time.sleep(4)
+            time.sleep(5)
     except KeyboardInterrupt:  
 # by pressing ctrl+c
         print("Monitoring stopped.")
