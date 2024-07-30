@@ -1,4 +1,3 @@
-# Project Name
 
 ## Overview
 This repository contains several Python scripts and configuration files for various tasks such as monitoring CPU usage, password strength checking, and backup operations.
