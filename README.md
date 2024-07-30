@@ -55,9 +55,7 @@ This repository contains several Python scripts and configuration files for vari
         source venv/bin/activate
         ```
 5. Install the required dependencies:
-    ```sh
-    pip install -r requirements.txt
-    ```
+
 
 ## Usage
 
