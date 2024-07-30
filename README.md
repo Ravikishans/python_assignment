@@ -35,11 +35,11 @@ This repository contains several Python scripts and configuration files for vari
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/repository1.git
+    git clone https://github.com/Ravikishans/python_assignment.git
     ```
 2. Navigate to the project directory:
     ```sh
-    cd repository1
+    cd python_assignment
     ```
 3. Set up the virtual environment:
     ```sh
